@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   aiogram-gambling_conversions_aggregator:
     build: .
