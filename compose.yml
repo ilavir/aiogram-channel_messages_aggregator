@@ -1,5 +1,23 @@
 services:
   aiogram-gambling_conversions_aggregator:
     build: .
+    container_name: aiogram-gambling_conversions_aggregator
     env_file: .env
     restart: unless-stopped
+
+    # Resource limits for production
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+          cpus: '0.5'
+        reservations:
+          memory: 128M
+          cpus: '0.25'
+
+    # Logging configuration
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

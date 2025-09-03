@@ -1,4 +1,4 @@
-# Aiogram Gambling Conversions Aggregator Bot
+# Aiogram Channel Messages Aggregator Bot
 
 A Telegram bot that aggregates gambling conversion messages from multiple source channels to a destination channel.
 
@@ -13,7 +13,7 @@ A Telegram bot that aggregates gambling conversion messages from multiple source
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd aiogram-gambling_conversions_aggregator
+cd aiogram-channel_messages_aggregator
 ```
 
 2. Create environment file:
