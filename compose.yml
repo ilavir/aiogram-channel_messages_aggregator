@@ -1,5 +1,5 @@
 services:
-  aiogram-gambling_conversions_aggregator:
+  bot:
     build: .
     container_name: aiogram-gambling_conversions_aggregator
     env_file: .env
