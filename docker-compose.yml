@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  aiogram-gambling_conversions_aggregator:
+    build: .
+    env_file: .env
+    restart: unless-stopped
